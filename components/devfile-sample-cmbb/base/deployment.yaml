@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-cmbb
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr714-0075-0012-tenant/tkrw-pr714-0075-0012-app/devfile-sample-cmbb@sha256:311b909426f4cd5b65d92882f89d126f8508d904e4e125cc0683765d99adb5c2
         name: my-nodejs
         ports:
         - containerPort: 3001
